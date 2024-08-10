@@ -1,1 +1,29 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Image Gallary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="background-color: brown; margin-top: 0; margin-bottom: 100px; width: 100%; color: aqua; padding: 10px; font-size: 30px; font-family: Gill Sans;"><h1>Checkout These Photos</h1></div>
+    
+    <div class="image-container">
+        <span style="--i: 1"><img id="image1" src="https://picsum.photos/id/237/300/200" ></span>
+        <span style="--i: 2"><img id="image2"src="https://picsum.photos/id/230/300/200" ></span>
+        <span style="--i: 3"><img id="image3"src="https://picsum.photos/id/207/300/200" ></span>
+        <span style="--i: 4"><img id="image4" src="https://picsum.photos/id/37/300/200" ></span>
+        <span style="--i: 5"><img src="https://picsum.photos/id/271/300/200" id="image5" ></span>
+        <span style="--i: 6"><img id="image6" src="https://picsum.photos/id/227/300/200" ></span>
+        <span style="--i: 7"><img src="https://picsum.photos/id/247/300/200" id="image7" ></span>
+        <span style="--i: 8"><img id="image8" src="https://picsum.photos/id/247/300/200" ></span>
+    </div>
+    <div class="btn-container">
+        <button class="btn" id="prev">Prev</button>
+        <button class="btn" id="next">Next</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
