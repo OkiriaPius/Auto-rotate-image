@@ -1,0 +1,260 @@
+body {
+
+    margin: 0;
+
+    background-color: black;
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    height: 100vh;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    align-items: center;
+
+
+
+}
+
+
+
+.image-container {
+
+    position: relative;
+
+    width: 200px;
+
+    height: 200px;
+
+    transform-style: preserve-3d;
+
+    transform: perspective(1000px) rotateY(0deg);
+
+    transition: transform 3s;
+
+}
+
+
+
+#image1{
+
+    background-color: darkgoldenrod;
+
+    height: 200px;
+
+    width: 300px;
+
+    border-radius: 10px;
+
+
+
+}
+
+#image2{
+
+    background-color: blue;
+
+    height: 200px;
+
+    width: 300px;
+
+    border-radius: 10px;
+
+
+
+}
+
+#image3{
+
+    background-color: pink;
+
+    height: 200px;
+
+    width: 300px;
+
+    border-radius: 10px;
+
+
+
+}
+
+#image4{
+
+    background-color: green;
+
+    height: 200px;
+
+    width: 300px;
+
+    border-radius: 10px;
+
+
+
+}
+
+#image5{
+
+    background-color: purple;
+
+    height: 200px;
+
+    width: 300px;
+
+    border-radius: 10px;
+
+
+
+}
+
+#image6{
+
+    background-color: red;
+
+    height: 200px;
+
+    width: 300px;
+
+    border-radius: 10px;
+
+
+
+}
+
+#image7{
+
+    background-color: skyblue;
+
+    height: 200px;
+
+    width: 300px;
+
+    border-radius: 10px;
+
+    
+
+
+
+}
+
+#image8{
+
+    background-color: teal;
+
+    height: 200px;
+
+    width: 300px;
+
+    border-radius: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.image-container span{
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
+
+}
+
+
+
+.image-container span img {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    width: 100%;
+
+}
+
+
+
+.btn-container {
+
+    position: relative;
+
+    width: 80%;
+
+
+
+}
+
+
+
+.btn {
+
+    position: absolute;
+
+    bottom: -150px;
+
+    background-color: slateblue;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+
+
+}
+
+
+
+.btn:hover {
+
+    filter: brightness(1.5);
+
+}
+
+
+
+
+
+#prev {
+
+    left: 20%;
+
+}
+
+
+
+#next {
+
+    right: 20%;
+
+}
+
+
+
+
+
+
+
